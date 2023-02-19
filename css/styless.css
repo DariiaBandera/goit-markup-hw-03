@@ -1,11 +1,8 @@
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  width: 1440px;
-  height: 2590px;
+}
 
-  background: #ffffff;
+:root {
 }
 
 /* header */
@@ -51,8 +48,6 @@ body {
   list-style: none;
 }
 .header-mail {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -61,8 +56,6 @@ body {
   text-decoration: none;
 }
 .header-tel {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -84,10 +77,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
@@ -112,7 +103,6 @@ body {
 .section-advantages {
 }
 .title-advantages {
-  display: none;
 }
 .list-advantages {
 }
@@ -194,8 +184,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -205,8 +193,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;

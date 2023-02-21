@@ -17,40 +17,44 @@
     <!-- Logo, nav -->
     <header class="header">
       <nav class="header-navigation">
-        <a href="./portfolio.html" class="header-logo">
-          <span class="logo-studio">Web</span>Studio</a
-        >
-        <ul class="header-list">
-          <li class="header-item"><a href="./index.html" class="header-link">Studio</a></li>
-          <li class="header-item"><a href="./portfolio.html" class="header-link">Portfolio</a></li>
-          <li class="header-item"><a href="" class="header-link">Contacts</a></li>
+        <a href="./portfolio.html" class="logo link"><span class="logo-studio">Web</span>Studio</a>
+        <ul class="header-list list">
+          <li class="header-item"><a href="./index.html" class="header-link link">Studio</a></li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-link link">Portfolio</a>
+          </li>
+          <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
         </ul>
       </nav>
       <address class="header-address">
-        <ul class="header-contacts-list">
-          <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="header-tel">+11 (000) 111-11-11</a></li>
+        <ul class="header-contacts-list list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+110001111111" class="header-tel link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
       <!-- section 1 -->
       <section>
-        <h1 class="title-filter">Filter</h1>
-        <ul class="list-filter">
-          <li class="item-filter"><button type="button" class="filter-button">All</button></li>
-          <li class="item-filter"><button type="button" class="filter-button">Web Site</button></li>
-          <li class="item-filter"><button type="button" class="filter-button">App</button></li>
-          <li class="item-filter"><button type="button" class="filter-button">Design</button></li>
+        <h1 class="visually-hidden">Filter</h1>
+        <ul class="list-filter list">
+          <li class="item-filter"><button type="button" class="filter-btn btn">All</button></li>
           <li class="item-filter">
-            <button type="button" class="filter-button">Marketing</button>
+            <button type="button" class="filter-btn btn">Web Site</button>
+          </li>
+          <li class="item-filter"><button type="button" class="filter-btn btn">App</button></li>
+          <li class="item-filter"><button type="button" class="filter-btn btn">Design</button></li>
+          <li class="item-filter">
+            <button type="button" class="filter-btn btn">Marketing</button>
           </li>
         </ul>
       </section>
       <!-- Section 2 -->
       <section class="projects">
-        <h2 class="projects-title">Projects</h2>
-        <ul class="project-list">
+        <h2 class="visually-hidden">Projects</h2>
+        <ul class="project-list list">
           <li class="projects-items">
             <img
               src="./images/bank app inter.jpg"
@@ -58,6 +62,8 @@
               width="360"
               height="300"
             />
+            <h3 class="project-title">Banking App Interface Concept</h3>
+            <p class="project-paragraph">App</p>
           </li>
           <li class="projects-items">
             <img
@@ -66,12 +72,18 @@
               width="360"
               height="300"
             />
+            <h3 class="project-title">Cashless Payment</h3>
+            <p class="project-paragraph">Marketing</p>
           </li>
           <li class="projects-items">
             <img src="./images/meditation app.jpg" alt="Meditation App" width="360" height="300" />
+            <h3 class="project-title">Meditaion App</h3>
+            <p class="project-paragraph">App</p>
           </li>
           <li class="projects-items">
             <img src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300" />
+            <h3 class="project-title">Taxi Service</h3>
+            <p class="project-paragraph">Marketing</p>
           </li>
           <li class="projects-items">
             <img
@@ -80,9 +92,13 @@
               width="360"
               height="300"
             />
+            <h3 class="project-title">Screen Illustrations</h3>
+            <p class="project-paragraph">Design</p>
           </li>
           <li class="projects-items">
             <img src="./images/online courses.jpg" alt="online Courses" width="360" height="300" />
+            <h3 class="project-title">Online Courses</h3>
+            <p class="project-paragraph">Marketing</p>
           </li>
           <li class="projects-items">
             <img
@@ -91,18 +107,26 @@
               width="360"
               height="300"
             />
+            <h3 class="project-title">Instagram Stories Concept</h3>
+            <p class="project-paragraph">Design</p>
           </li>
           <li class="projects-items">
             <img src="./images/org food.jpg" alt="Organic Food" width="360" height="300" />
+            <h3 class="project-title">Organic Food</h3>
+            <p class="project-paragraph">Web Site</p>
           </li>
           <li class="projects-items">
             <img src="./images/coffee.jpg" alt="Fresh Coffee" width="360" height="300" />
+            <h3 class="project-title">Fresh Coffee</h3>
+            <p class="project-paragraph">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="./portfolio.html" class="header-logo"><span class="logo-studio">Web</span>Studio</a>
+      <a href="./portfolio.html" class="logo-footer link"
+        ><span class="logo-studio-footer">Web</span>Studio</a
+      >
       <p class="footer-paragraph">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.

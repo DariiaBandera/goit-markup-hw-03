@@ -10,18 +10,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
-  color: #2e2f42;
-  color: #4d5ae5;
-  color: #404bbf;
-  color: #434455;
-  color: #f4f4fd;
-  color: #e7e9fc;
+  background-color: var(--main-title-color);
+  color: var(--paragrapgh-with-titles-color);
   font-size: 16px;
-  font-weight: 800;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
+
+/* прибрати спейсінг і додати назад до стайлу */
 
 .visually-hidden {
   position: absolute;
@@ -59,6 +54,7 @@ body {
 }
 .logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.03em;
@@ -68,6 +64,7 @@ body {
 
 .logo-studio {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.03em;
@@ -84,6 +81,7 @@ body {
   text-transform: none;
   font-weight: 500;
   color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -96,8 +94,8 @@ body {
 }
 .header-mail {
   font-style: normal;
-  font-weight: 400;
   color: var(--paragrapgh-with-titles-color);
+  letter-spacing: 0.02em;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -106,8 +104,8 @@ body {
 
 .header-tel {
   font-style: normal;
-  font-weight: 400;
   color: var(--paragrapgh-with-titles-color);
+  letter-spacing: 0.02em;
 }
 
 .header-tel:hover,
@@ -127,10 +125,14 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--main-title-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--main-title-color);
   background: var(--title-web-logo);
@@ -159,10 +161,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
 }
 .advantages-paragraph {
-  font-weight: 400;
   color: var(--paragrapgh-with-titles-color);
+  letter-spacing: 0.02em;
 }
 
 /* /section 1 */
@@ -172,11 +175,12 @@ body {
 .example {
 }
 .example-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
   color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .example-list {
 }
@@ -191,21 +195,29 @@ body {
   background: var(--studio-logo-color);
 }
 .team-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+  color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-list {
 }
 .team-item {
+  background-color: var(--main-title-color);
 }
 .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
 }
 .team-profession {
-  font-weight: 400;
   font-size: 16px;
   color: var(--paragrapgh-with-titles-color);
+  letter-spacing: 0.02em;
 }
 
 /* /section 3 */
@@ -216,6 +228,7 @@ body {
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -225,6 +238,7 @@ body {
 
 .logo-studio-footer {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -233,8 +247,8 @@ body {
 }
 
 .footer-paragraph {
-  font-weight: 400;
   color: var(--footer-para-color);
+  letter-spacing: 0.02em;
 }
 /* /footer */
 
@@ -246,7 +260,13 @@ body {
 .item-filter {
 }
 .filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--title-web-logo);
+  background-color: var(--studio-logo-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -268,8 +288,9 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
+  letter-spacing: 0.02em;
 }
 .project-paragraph {
-  font-weight: 400;
   color: var(--paragrapgh-with-titles-color);
+  letter-spacing: 0.02em;
 }

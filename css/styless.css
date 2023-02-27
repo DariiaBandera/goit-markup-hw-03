@@ -6,7 +6,7 @@
   --paragrapgh-with-titles-color: #434455;
   --studio-logo-color: #f4f4fd;
   --footer-para-color: #e7e9fc;
-  --padding: 120px;
+  --padding: 120px 0;
 }
 
 h1,
@@ -33,7 +33,6 @@ body {
   line-height: 1.5;
 }
 
-/* додати контейнери до хтмл */
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -72,7 +71,7 @@ body {
 
 /* header */
 .header {
-  padding: 24px 0px;
+  padding: 24px 0;
 }
 .header-navigation {
 }
@@ -144,6 +143,7 @@ body {
 }
 .hero-section {
   background-color: var(--titles-with-prgh-color);
+  padding: 188px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -157,7 +157,6 @@ body {
 }
 .hero-btn {
   display: block;
-  margin: 0 auto;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -166,6 +165,9 @@ body {
   color: var(--main-title-color);
   background: var(--title-web-logo);
   cursor: pointer;
+  margin-left: auto;
+  margin-bottom: 188px 0;
+  padding: 16px 32px;
 }
 
 .hero-btn:hover,
@@ -178,7 +180,7 @@ body {
 /* section 1 */
 
 .section-advantages {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .title-advantages {
 }
@@ -192,12 +194,11 @@ body {
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
-  padding: 8px 24px;
+  margin: 8px;
 }
 .advantages-paragraph {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-  padding: 32px 24px;
 }
 
 /* /section 1 */
@@ -205,7 +206,6 @@ body {
 /* section 2 */
 
 .example {
-  padding: 120px 0px;
 }
 .example-title {
   font-size: 36px;
@@ -214,8 +214,10 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
 .example-list {
+  padding: 120px;
 }
 .example-item {
 }
@@ -234,8 +236,10 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   text-align: center;
+  padding-top: 120px;
 }
 .team-list {
+  margin: 72px 0 32px 0;
 }
 .team-item {
   background-color: var(--main-title-color);
@@ -246,11 +250,13 @@ body {
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
+  margin-top: 32px;
 }
 .team-profession {
   font-size: 16px;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 /* /section 3 */
@@ -258,6 +264,7 @@ body {
 /* footer */
 .footer {
   background: var(--titles-with-prgh-color);
+  padding: 100px 0;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -282,12 +289,15 @@ body {
 .footer-paragraph {
   color: var(--footer-para-color);
   letter-spacing: 0.02em;
+  margin-top: 16px;
+  width: 264px;
 }
 /* /footer */
 
 /* portfolio btns */
 
 .list-filter {
+  padding: 96px 0;
 }
 
 .item-filter {
@@ -308,12 +318,12 @@ body {
 }
 
 .projects {
-}
-.projects-title {
+  padding: 62px 0;
 }
 .project-list {
 }
 .projects-items {
+  margin-bottom: 120px;
 }
 
 .project-title {
@@ -322,8 +332,10 @@ body {
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
+  margin-top: 32px;
 }
 .project-paragraph {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
+  margin: 8px 0;
 }

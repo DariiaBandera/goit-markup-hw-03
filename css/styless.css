@@ -6,7 +6,6 @@
   --paragrapgh-with-titles-color: #434455;
   --studio-logo-color: #f4f4fd;
   --footer-para-color: #e7e9fc;
-  --padding: 120px 0;
 }
 
 h1,
@@ -23,6 +22,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -74,7 +75,14 @@ body {
   padding: 24px 0;
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
+
+.logo-both {
+  margin-right: 76px;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -96,6 +104,9 @@ body {
 }
 
 .header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .header-item {
@@ -112,13 +123,17 @@ body {
   color: var(--title-hover-color);
 }
 .header-address {
+  margin-left: auto;
 }
 .header-contacts-list {
+  display: flex;
+  align-items: center;
 }
 .header-mail {
   font-style: normal;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -139,22 +154,23 @@ body {
 
 /* hero */
 
-.hero {
-}
 .hero-section {
   background-color: var(--titles-with-prgh-color);
-  padding: 188px 0;
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   color: var(--main-title-color);
   letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 48px;
-  margin-left: auto;
+  width: 496px;
   margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
+
 .hero-btn {
   display: block;
   font-family: inherit;
@@ -165,9 +181,13 @@ body {
   color: var(--main-title-color);
   background: var(--title-web-logo);
   cursor: pointer;
-  margin-left: auto;
-  margin-bottom: 188px 0;
   padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: auto;
+  border: transparent;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn:hover,
@@ -185,6 +205,8 @@ body {
 .title-advantages {
 }
 .list-advantages {
+  display: flex;
+  gap: 24px;
 }
 .item-advantages {
 }
@@ -195,6 +217,7 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   margin: 8px;
+  width: 264px;
 }
 .advantages-paragraph {
   color: var(--paragrapgh-with-titles-color);
@@ -206,6 +229,8 @@ body {
 /* section 2 */
 
 .example {
+  display: flex;
+  align-items: center;
 }
 .example-title {
   font-size: 36px;
@@ -217,7 +242,10 @@ body {
   margin-bottom: 72px;
 }
 .example-list {
-  padding: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 .example-item {
 }
@@ -240,9 +268,15 @@ body {
 }
 .team-list {
   margin: 72px 0 32px 0;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
 }
 .team-item {
   background-color: var(--main-title-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
@@ -251,12 +285,15 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   margin-top: 32px;
+  text-align: center;
 }
 .team-profession {
   font-size: 16px;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-  margin-top: 8px;
+
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* /section 3 */
@@ -297,12 +334,17 @@ body {
 /* portfolio btns */
 
 .list-filter {
-  padding: 96px 0;
+  padding: 96px 0 62px 0;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-filter {
 }
 .filter-btn {
+  display: block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -310,6 +352,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--title-web-logo);
   background-color: var(--studio-logo-color);
+  border: 1px solid var(--footer-para-color);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -318,12 +363,19 @@ body {
 }
 
 .projects {
-  padding: 62px 0;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .project-list {
+  margin-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .projects-items {
-  margin-bottom: 120px;
+  border: 1px solid var(--footer-para-color);
+  margin-bottom: 48px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .project-title {
@@ -333,9 +385,10 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   margin-top: 32px;
+  margin-left: 16px;
 }
 .project-paragraph {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-  margin: 8px 0;
+  margin: 8px 16px;
 }

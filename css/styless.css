@@ -72,15 +72,11 @@ body {
 
 /* header */
 .header {
-  padding: 24px 0;
+  border-bottom: 1px solid var(--footer-para-color);
 }
 .header-navigation {
   display: flex;
   align-items: center;
-}
-
-.logo-both {
-  margin-right: 76px;
 }
 
 .logo {
@@ -91,6 +87,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--titles-with-prgh-color);
+  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-studio {
@@ -101,6 +99,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-web-logo);
+  padding: 24px 0;
 }
 
 .header-list {
@@ -116,6 +115,8 @@ body {
   font-weight: 500;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-link:hover,
@@ -124,16 +125,18 @@ body {
 }
 .header-address {
   margin-left: auto;
+  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .header-mail {
   font-style: normal;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-  margin-right: 40px;
+  padding: 24px 0;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -144,6 +147,7 @@ body {
   font-style: normal;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-tel:hover,
@@ -209,6 +213,7 @@ body {
   gap: 24px;
 }
 .item-advantages {
+  width: 264px;
 }
 .advantages-point {
   font-weight: 500;
@@ -216,8 +221,7 @@ body {
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
-  margin: 8px;
-  width: 264px;
+  margin-bottom: 8px;
 }
 .advantages-paragraph {
   color: var(--paragrapgh-with-titles-color);
@@ -229,8 +233,7 @@ body {
 /* section 2 */
 
 .example {
-  display: flex;
-  align-items: center;
+  padding-bottom: 120px;
 }
 .example-title {
   font-size: 36px;
@@ -242,12 +245,11 @@ body {
   margin-bottom: 72px;
 }
 .example-list {
-  margin-bottom: 120px;
   display: flex;
-  flex-direction: row;
   gap: 24px;
 }
 .example-item {
+  width: 360px;
 }
 
 /* /section 2 */
@@ -256,6 +258,8 @@ body {
 
 .team {
   background: var(--studio-logo-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font-size: 36px;
@@ -264,19 +268,19 @@ body {
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .team-list {
-  margin: 72px 0 32px 0;
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .team-item {
   background-color: var(--main-title-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: 260px;
+  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -286,13 +290,12 @@ body {
   letter-spacing: 0.02em;
   margin-top: 32px;
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-profession {
   font-size: 16px;
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-
-  margin-bottom: 32px;
   text-align: center;
 }
 
@@ -333,8 +336,12 @@ body {
 
 /* portfolio btns */
 
+.projects-menu {
+  padding-top: 96px;
+  padding-bottom: 62px;
+}
+
 .list-filter {
-  padding: 96px 0 62px 0;
   display: flex;
   gap: 24px;
   align-items: center;
@@ -354,6 +361,7 @@ body {
   background-color: var(--studio-logo-color);
   border: 1px solid var(--footer-para-color);
   border-radius: 4px;
+  border-color: transparent;
   padding: 12px 24px;
 }
 .filter-btn:hover,
@@ -363,32 +371,30 @@ body {
 }
 
 .projects {
-  padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .project-list {
-  margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .projects-items {
-  border: 1px solid var(--footer-para-color);
-  margin-bottom: 48px;
   flex-basis: calc((100% - 48px) / 3);
 }
-
+.img-padding {
+  border: 1px solid var(--footer-para-color);
+  padding: 32px 16px;
+}
 .project-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--titles-with-prgh-color);
   letter-spacing: 0.02em;
-  margin-top: 32px;
-  margin-left: 16px;
 }
 .project-paragraph {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
-  margin: 8px 16px;
+  margin: 8px 0px;
 }

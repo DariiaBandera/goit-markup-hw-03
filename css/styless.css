@@ -125,7 +125,6 @@ body {
 }
 .header-address {
   margin-left: auto;
-  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
@@ -137,6 +136,7 @@ body {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -148,6 +148,7 @@ body {
   color: var(--paragrapgh-with-titles-color);
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .header-tel:hover,
@@ -279,7 +280,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: 260px;
+  width: 264px;
   padding-bottom: 32px;
 }
 .team-name {
@@ -336,9 +337,9 @@ body {
 
 /* portfolio btns */
 
-.projects-menu {
+.projects {
   padding-top: 96px;
-  padding-bottom: 62px;
+  padding-bottom: 120px;
 }
 
 .list-filter {
@@ -349,6 +350,7 @@ body {
 }
 
 .item-filter {
+  margin-bottom: 72px;
 }
 .filter-btn {
   display: block;
@@ -361,17 +363,13 @@ body {
   background-color: var(--studio-logo-color);
   border: 1px solid var(--footer-para-color);
   border-radius: 4px;
-  border-color: transparent;
   padding: 12px 24px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--title-hover-color);
   color: var(--main-title-color);
-}
-
-.projects {
-  padding-bottom: 120px;
+  border-color: transparent;
 }
 
 .project-list {
@@ -384,6 +382,7 @@ body {
 }
 .img-padding {
   border: 1px solid var(--footer-para-color);
+  border-top: none;
   padding: 32px 16px;
 }
 .project-title {
